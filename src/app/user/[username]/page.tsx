@@ -116,7 +116,7 @@ export default function UserProfilePage() {
       <div className="min-h-screen bg-black flex items-center justify-center">
         <div className="text-center">
           <h1 className="text-2xl font-bold text-white mb-2">User not found</h1>
-          <p className="text-gray-400 mb-4">The user you're looking for doesn't exist.</p>
+          <p className="text-gray-400 mb-4">The user you&apos;re looking for doesn&apos;t exist.</p>
           <Button onClick={() => router.push('/dashboard')}>
             Go to Dashboard
           </Button>
@@ -266,7 +266,7 @@ export default function UserProfilePage() {
               <FileText className="w-12 h-12 text-gray-600 mx-auto mb-4" />
               <h3 className="text-xl font-semibold mb-2">No articles yet</h3>
               <p className="text-gray-400">
-                {profile.username} hasn't published any articles yet.
+                {profile.username} hasn&apos;t published any articles yet.
               </p>
             </div>
           ) : (

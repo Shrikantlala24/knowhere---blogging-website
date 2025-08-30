@@ -291,7 +291,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center space-y-4 mb-16">
             <h2 className="text-4xl font-bold">What Writers Say</h2>
-            <p className="text-xl text-gray-400">Join thousands of writers who've found their voice on Knowhere</p>
+            <p className="text-xl text-gray-400">Join thousands of writers who&apos;ve found their voice on Knowhere</p>
           </div>
           
           <InfiniteMovingCards
@@ -307,7 +307,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center space-y-4 mb-16">
             <h2 className="text-4xl font-bold">Choose Your Plan</h2>
-            <p className="text-xl text-gray-400">Start free, upgrade when you're ready to grow</p>
+            <p className="text-xl text-gray-400">Start free, upgrade when you&apos;re ready to grow</p>
           </div>
           
           <div className="grid md:grid-cols-2 gap-8">

@@ -282,13 +282,14 @@ const example = 'Hello World';
                 </div>
               )}
               <div className="prose-content">
-                <ReactMarkdown
-                  remarkPlugins={[remarkGfm]}
-                  rehypePlugins={[rehypeHighlight, rehypeRaw]}
-                  className="prose prose-invert prose-emerald max-w-none"
-                >
-                  {article.content || '*Start writing to see preview...*'}
-                </ReactMarkdown>
+                <div className="prose prose-invert prose-emerald max-w-none">
+                  <ReactMarkdown
+                    remarkPlugins={[remarkGfm]}
+                    rehypePlugins={[rehypeHighlight, rehypeRaw]}
+                  >
+                    {article.content || '*Start writing to see preview...*'}
+                  </ReactMarkdown>
+                </div>
               </div>
             </article>
           </div>
@@ -330,13 +331,14 @@ const example = 'Hello World';
                     <p className="text-lg text-gray-400 mb-6">{article.subtitle}</p>
                   )}
                   <div className="prose-content">
-                    <ReactMarkdown
-                      remarkPlugins={[remarkGfm]}
-                      rehypePlugins={[rehypeHighlight, rehypeRaw]}
-                      className="prose prose-invert prose-emerald max-w-none"
-                    >
-                      {article.content || '*Start writing to see preview...*'}
-                    </ReactMarkdown>
+                    <div className="prose prose-invert prose-emerald max-w-none">
+                      <ReactMarkdown
+                        remarkPlugins={[remarkGfm]}
+                        rehypePlugins={[rehypeHighlight, rehypeRaw]}
+                      >
+                        {article.content || '*Start writing to see preview...*'}
+                      </ReactMarkdown>
+                    </div>
                   </div>
                 </article>
               </div>

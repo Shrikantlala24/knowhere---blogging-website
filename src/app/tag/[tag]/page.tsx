@@ -89,7 +89,7 @@ export default function TagPage() {
     if (!user) return;
     
     try {
-      await clapService.addClap(user.id, articleId);
+      await clapService.clapArticle(articleId, user.id);
       setClappedArticles(prev => new Set(prev).add(articleId));
       
       // Update article claps count locally
